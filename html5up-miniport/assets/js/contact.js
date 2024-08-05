@@ -13,4 +13,4 @@ function sendEmail() {
         .then(response => alert('Email sent successfully'))
         .catch(error => alert('Failed to send email'));
 }
-document.getElementById('sendButton').addEventListener('click', sendEmail)
+document.getElementById('submit').addEventListener('click', sendEmail)
