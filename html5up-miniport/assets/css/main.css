@@ -34,6 +34,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.project-title{
+	font-family: Montserrat;
+	font-weight: 100;
+}
+
+.app-desc{
+	font-size: 0.9em;
+	color:#0062DB;
+}
+
 body {
 	line-height: 1;
 }
@@ -211,7 +221,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 0;
 	}
 
 	header {
